@@ -3,7 +3,7 @@ const commonConfig = require('./webpack.common')
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin')
 const packageJson = require('../package.json')
 
-const domain = process.env.PRODUCTION_DOMAIN || "https://module-federation.herokuapp.com/";
+const domain = process.env.LOCAL_DOMAIN || "http://localhost:8080/";
 
 const devConfig = {
     mode: 'development',
