@@ -3,8 +3,6 @@
     "version": "1.0.0",
     "scripts": {
         "serve": "webpack serve --config=config/webpack.serve.js",
-        "start": "webpack serve --config=config/webpack.dev.js",
-        "build": "webpack --config=config/webpack.prod.js"
     },
     "dependencies": {
         "react": "^17.0.1",
